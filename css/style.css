@@ -150,3 +150,72 @@
     background: #ffff00b9;
     border: 1px solid #ffff00b9;
 }
+
+.cards__card {
+    background: #006241;
+    margin-top: 15px;
+    color: #fff;
+    position: relative;
+    width: 90%;
+    margin-top: 35px;
+}
+
+.cards {
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards__card-image {
+    width: 100%;
+}
+
+.cards__card-title span {
+    color: #e9e901;
+}
+
+.cards__card-conteiner-text {
+    padding: 5px 15px;
+}
+
+.cards__card-description {
+    font-size: 14px;
+    margin: 7.5px 0;
+}
+
+.cards__card-btn {
+    background: inherit;
+    border: 1px solid #fff;
+    color: #fff;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 5px 0;
+    transition: all 1s;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.cards__card-btn:hover {
+    background: #ffff00b9;
+    border: 1px solid #ffff00b9;
+}
+
+/* .card_conteiner-btn a - utilce div ni anclas */
+
+.cards__card-circle {
+    background: #e9e901;
+    width: 65px;
+    height: 65px;
+    color: #000;
+    font-weight: bolder;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    right: -25px;
+}
